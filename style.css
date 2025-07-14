@@ -1,0 +1,53 @@
+ .navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.container>{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .logo{
+    width: 80px;
+
+}
+.logo>img{
+    width: 100%;
+}
+.list>li{
+    display: inline-block;
+    align: center;
+    margin-right: 30px;
+    list-style: none
+}
+.input>li{
+    display: inline-block;
+    align: center;
+    margin-right: 30px;
+    list-style: none
+}
+.info{
+    width: 100%;
+    height:auto;
+    backcground-color: blue
+}
+.para{
+    background-color: gray;
+    color: white;
+}
+p{
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+
+}
+button.hover-effect:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
